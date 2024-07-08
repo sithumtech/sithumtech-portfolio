@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@sithumtech</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c2066f92d7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Videos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Y/T Content creater</p>
+                <h1>Hi, I'm <span>Sithum</span>Rashmika <br> from Srilanka</h1>
+
+            </div>
+        </div>
+    </div>
+    <!-- ---------about---- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/user2.png" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitile">About me</h1>
+                    <p>Hello! My name is Sithum Rashmika, and I am a 20-year-old. Having
+                        successfully completed my A/L and O/L from school, I am now focused on pursuing my passion for
+                        software development. <br><br>
+                        In addition to my studies, I run a YouTube channel called SithumTech. On my channel, I share
+                        tutorials, tech reviews, and insights into the latest developments in the tech world. Through
+                        SithumTech, I aim to educate and inspire others who share my passion for technology. <br>
+                        <br>
+
+                        <!-- @Road to 100k subscribers <br><br>
+
+                        COMPUTER TIPS <br>
+                        MOBILE PHONE TIPS <br>
+                        MOBILE PHONE UNBOXING <br>
+                        UPDATE TECHNOLOGY TIPS <br><br>
+
+
+                        BUSINESS INQUIRIES **<br>
+
+                        Please get in touch with Sithum Rashmika at sithumtech@gmail.com or Call us at 076 241 1596
+                        Contact me on Whatsapp (Only for Business inquiries) - 074 280 0637</p> -->
+                    <div class="tab-titiles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Design Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Design Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiance">
+                        <ul>
+                            <li><span>UI/UX</span><br>Pending...</li>
+                            <li><span>Web Development</span><br>Pending...</li>
+                            <li><span>App Development</span><br>Pending...</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>ICET</span><br>Software engineering </li>
+                            <li><span>University</span><br>Pending...</li>
+                            <li><span>School Education</span><br>Completed A/l & O/L</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------services----------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitile">My Services(Update soon)</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, doloremque nisi voluptates
+                        consectetur qui fugiat impedit quam temporibus! Nostrum atque quasi praesentium rerum numquam
+                        possimus, doloribus reiciendis rem consectetur adipisci?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/Ux design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, doloremque nisi voluptates
+                        consectetur qui fugiat impedit quam temporibus! Nostrum atque quasi praesentium rerum numquam
+                        possimus, doloribus reiciendis rem consectetur adipisci?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>app dewelopment</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, doloremque nisi voluptates
+                        consectetur qui fugiat impedit quam temporibus! Nostrum atque quasi praesentium rerum numquam
+                        possimus, doloribus reiciendis rem consectetur adipisci?</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- --------------------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitile">YT/Videos</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work-1.png">
+                    <div class="layer">
+                        <h3>Phone Reviwes</h3>
+                        <p>Welcome to my channel! Today, we're unboxing the latest smartphone on the market. We'll take
+                            a first look at the packaging, explore what's inside the box, and give you an initial
+                            impression of the phone's design and features. Make sure to stay tuned as we dive into the
+                            details and see what this new device has to offer!</p>
+                        <a href="https://youtu.be/6ZoOKMuweSQ"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-2.png">
+                    <div class="layer">
+                        <h3>Tech Updates</h3>
+                        <p>
+                            Welcome back to SithumTech! In today's video, we're diving into the latest tech news. We'll
+                            cover the most exciting updates, from groundbreaking new gadgets and software releases to
+                            major industry announcements. Stay tuned to get all the important details and our expert
+                            analysis on what's happening in the world of technology!</p>
+                        <a href="https://youtu.be/RBFno2Q1AJg"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-3.png">
+                    <div class="layer">
+                        <h3>Tips & Tricks</h3>
+                        <p>Welcome to SithumTech! In today's video, I'm sharing some amazing tech tips and tricks that
+                            will help you get the most out of your devices. Whether you're looking to boost your
+                            productivity, enhance your security, or discover hidden features, these tips are sure to
+                            make your tech experience smoother and more enjoyable. Let's dive in and unlock the full
+                            potential of your gadgets!</p>
+                        <a href="https://youtu.be/FQ7ywWXoEv0"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.youtube.com/@sithumtech" class="btn">See more videos</a>
+        </div>
+    </div>
+    <!-- ----------------contact-------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sithumtech@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>+74 280 0637</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100076223448940"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/@sithumtech"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/rashmika_sithum/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@sithumtech?lang=en"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                    <a href="img/my-cv.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <!-- -----submit data code here----------- -->
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sithum tech. <i class="fa-solid fa-heart"></i> All Right Reserved - 2K24</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
